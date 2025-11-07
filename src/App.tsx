@@ -13,7 +13,7 @@ return (
 )
 }
 
-function Tile({ fullName }: { fullName: String} ) {
+function Tile({ fullName }: { fullName: string} ) {
   return (
     <div>
       <h5>{fullName}</h5>
@@ -25,13 +25,21 @@ function Tiles() {
   return (
     <section>
       <Tile fullName= "Mark Gitau"/>
+      <Tile fullName= "Learn"/>
+      <Tile fullName= "Earn"/>
+      <Tile fullName= "Return"/>
     </section>
   )
 }
 
 function App () {
   return (
+    <div>
     <h1>I am blessed and highly favored</h1>
+    <GoogleMeetHeader />
+    <Tile />
+    <Tiles />
+    </div>
   )
 }
 
