@@ -1,3 +1,4 @@
+// learn that a component can only return one Html element
 
 
 function App () {
