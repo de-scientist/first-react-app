@@ -2,6 +2,7 @@
 //learn that to have more then one html element we should nest inside containers such as divs
 //we use pascal case convention when creating components(first character is uppercase)
 //components are reusable
+//use jsx elements which are html elements
 
 function GoogleMeetHeader () {
 return (
