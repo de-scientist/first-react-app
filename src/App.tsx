@@ -3,6 +3,30 @@
 //we use pascal case convention when creating components(first character is uppercase)
 //components are reusable
 
+function GoogleMeetHeader () {
+return (
+  <div>
+    <p>Mark is learning</p>
+    <button>Keep on learning</button>
+  </div>
+)
+}
+
+function Tile({ fullName }: { fullName: String} ) {
+  return (
+    <div>
+      <h5>{fullName}</h5>
+    </div>
+  )
+}
+
+function Tiles() {
+  return (
+    <section>
+      <Tile fullName= "Mark Gitau"/>
+    </section>
+  )
+}
 
 function App () {
   return (
